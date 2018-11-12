@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"BT-2032-2,BT-2032-1";"BatteryHolder_Keystone_3034_1x20mm";2;"Battery_Cell";;;
+2;"SW-LEDGROUND1";"SW_SPST_EVQPE1";1;"SW_SPST";;;
+3;"C100uF1";"CP_Elec_6.3x5.4_Nichicon";1;"CP1_Small";;;
+4;"JPROGHEADER1";"PinSocket_2x04_P1.00mm_Vertical_SMD";1;"Conn_01x08_Male";;;
+5;"D8,D1,D3,D4,D5,D6,D7,D10,D9,D2";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";10;"LED";;;
+6;"U1";"SOIJ-8_5.3x5.3mm_P1.27mm";1;"ATtiny85V-10SU";;;
+7;"R56-Ohm10,R56-Ohm8,R56-Ohm9,R56-Ohm1,R56-Ohm2,R56-Ohm3,R56-Ohm4,R56-Ohm5,R56-Ohm6,R56-Ohm7";"R_1206_3216Metric_Pad1.42x1.75mm_HandSolder";10;"R_Small";;;
+8;"REF**";"TestPoint_Plated_Hole_D5.0mm";1;"TestPoint_Plated_Hole_D5.0mm";;;
