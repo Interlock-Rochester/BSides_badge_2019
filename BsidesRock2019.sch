@@ -37,17 +37,6 @@ F 3 "~" V 2700 3760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW-LEDGROUND1
-U 1 1 5BEA66B7
-P 3900 3650
-F 0 "SW-LEDGROUND1" H 3900 3885 50  0000 C CNN
-F 1 "SW_SPST" H 3900 3794 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 3900 3650 50  0001 C CNN
-F 3 "" H 3900 3650 50  0001 C CNN
-	1    3900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D3
 U 1 1 5BEA67FE
 P 4250 1300
@@ -165,24 +154,9 @@ Wire Wire Line
 	4100 3800 4100 3650
 Connection ~ 2700 3800
 Wire Wire Line
-	3700 3650 3450 3650
-$Comp
-L Device:CP1_Small C100uF1
-U 1 1 5BEA6EFF
-P 2300 3150
-F 0 "C100uF1" H 2391 3196 50  0000 L CNN
-F 1 "CP1_Small" H 2391 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon" H 2300 3150 50  0001 C CNN
-F 3 "~" H 2300 3150 50  0001 C CNN
-	1    2300 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1950 3500 1950 3300
 Wire Wire Line
 	1950 3300 2300 3300
-Wire Wire Line
-	2300 3300 2300 3250
 Wire Wire Line
 	2700 3500 2700 3300
 Connection ~ 2300 3300
@@ -595,4 +569,8 @@ Wire Wire Line
 Connection ~ 3350 3800
 Wire Wire Line
 	3350 3800 4100 3800
+Wire Wire Line
+	3450 3650 4100 3650
+Wire Wire Line
+	2300 3050 2300 3300
 $EndSCHEMATC
